@@ -14,4 +14,5 @@
     <string name="count_button_text">count</string>
 
     <string name="random_heading">Here is a random number between 0 and %d.</string>
+    <string name="newAlarmName">Alarm Name</string>
 </resources>
