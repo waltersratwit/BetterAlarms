@@ -15,4 +15,6 @@
 
     <string name="random_heading">Here is a random number between 0 and %d.</string>
     <string name="newAlarmName">Alarm Name</string>
+    <string name="channel_name">Better Alarms notifs</string>
+    <string name="channel_description">the channel for creating alarms</string>
 </resources>
