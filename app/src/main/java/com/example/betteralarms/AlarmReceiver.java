@@ -51,6 +51,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
         // notificationId is a unique int for each notification that you must define
         if (ActivityCompat.checkSelfPermission(context, android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+            Toast.makeText(context, "notif failed", Toast.LENGTH_LONG).show();
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
             // here to request the missing permissions, and then overriding

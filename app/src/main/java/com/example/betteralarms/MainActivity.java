@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 //.setSmallIcon(R.drawable.notification_icon)
                 .setContentTitle("My notification")
                 .setContentText("Hello World!")
-                .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
                 // Set the intent that will fire when the user taps the notification
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true);
